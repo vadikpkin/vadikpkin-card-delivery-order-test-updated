@@ -5,6 +5,7 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -49,7 +50,7 @@ class CardDeliveryOrderTests {
         SelenideLogger.removeListener("allure");
     }
 
-
+    @DisplayName("Happy path test")
     @Test
     void shouldSubmitRequest() {
         RequestData requestData = DataGeneratorValidInfo.generateUsersData(new Locale("ru"));
@@ -71,6 +72,7 @@ class CardDeliveryOrderTests {
         $("[data-test-id='success-notification']").waitUntil(Condition.visible, 15000);
     }
 
+    @DisplayName("Test should decline requests with invalid names")
     @CsvFileSource(resources = "/invalidnames.csv", numLinesToSkip = 1)
     @ParameterizedTest
     void shouldDeclineRequestForInvalidName(String invalidName) {
@@ -94,6 +96,7 @@ class CardDeliveryOrderTests {
                 .exactText(invalidNameErrorText));
     }
 
+    @DisplayName("Test should decline requests with invalid phone number")
     @CsvFileSource(resources = "/invalidtel.csv", numLinesToSkip = 1)
     @ParameterizedTest
     void shouldDeclineRequestForInvalidTel(String invalidTel) {
@@ -117,6 +120,7 @@ class CardDeliveryOrderTests {
                 .exactText(invalidTelErrorText));
     }
 
+    @DisplayName("Test should decline requests with invalid city")
     @Test
     void shouldDeclineRequestForInvalidCity() {
         RequestData requestData = DataGeneratorValidInfo.generateUsersData(new Locale("ru"));
@@ -139,6 +143,7 @@ class CardDeliveryOrderTests {
                 .exactText(invalidCityErrorText));
     }
 
+    @DisplayName("Test should decline requests with invalid date")
     @Test
     void shouldDeclineRequestForInvalidDate() {
         RequestData requestData = DataGeneratorValidInfo.generateUsersData(new Locale("ru"));
@@ -161,6 +166,7 @@ class CardDeliveryOrderTests {
                 .exactText(invalidDateErrorText));
     }
 
+    @DisplayName("Test should decline requests with invalid type of date")
     @Test
     void shouldDeclineRequestForInvalidTypeOfDate() {
         RequestData requestData = DataGeneratorValidInfo.generateUsersData(new Locale("ru"));
@@ -183,6 +189,7 @@ class CardDeliveryOrderTests {
                 .exactText(invalidTypeOfDateErrorText));
     }
 
+    @DisplayName("Test should decline requests if checkbox is not checked")
     @Test
     void shouldDeclineRequestForNotCheckedCheckbox() {
         RequestData requestData = DataGeneratorValidInfo.generateUsersData(new Locale("ru"));
@@ -206,6 +213,7 @@ class CardDeliveryOrderTests {
         assertEquals(colorRedRGB, actualColor);
     }
 
+    @DisplayName("Test should decline requests if city in not entered")
     @Test
     void shouldDeclineRequestForNullCity() {
         RequestData requestData = DataGeneratorValidInfo.generateUsersData(new Locale("ru"));
@@ -228,6 +236,7 @@ class CardDeliveryOrderTests {
                 .exactText(nullFieldErrorText));
     }
 
+    @DisplayName("Test should decline requests if name in not entered")
     @Test
     void shouldDeclineRequestForNullName() {
         RequestData requestData = DataGeneratorValidInfo.generateUsersData(new Locale("ru"));
@@ -249,6 +258,7 @@ class CardDeliveryOrderTests {
                 .exactText(nullFieldErrorText));
     }
 
+    @DisplayName("Test should decline requests if date in not entered")
     @Test
     void shouldDeclineRequestForNullDate() {
         RequestData requestData = DataGeneratorValidInfo.generateUsersData(new Locale("ru"));
@@ -271,6 +281,7 @@ class CardDeliveryOrderTests {
                 .shouldHave(Condition.exactText(invalidTypeOfDateErrorText));
     }
 
+    @DisplayName("Test should decline requests if phone number in not entered")
     @Test
     void shouldDeclineRequestForNullTel() {
         RequestData requestData = DataGeneratorValidInfo.generateUsersData(new Locale("ru"));
@@ -293,6 +304,7 @@ class CardDeliveryOrderTests {
                 .exactText(nullFieldErrorText));
     }
 
+    @DisplayName("Happy path test, city is chosen from appeared list ")
     @Test
     void shouldSubmitRequestWhenCityChosenFromAppearedList() {
         RequestData requestData = DataGeneratorValidInfo.generateUsersData(new Locale("ru"));
@@ -315,6 +327,7 @@ class CardDeliveryOrderTests {
         $("[data-test-id='success-notification']").waitUntil(Condition.visible, 15000);
     }
 
+    @DisplayName("Test for changing day of meeting")
     @Test
     void shouldSubmitChangeDateOfMeeting() {
         RequestData requestData = DataGeneratorValidInfo.generateUsersData(new Locale("ru"));
