@@ -1,6 +1,10 @@
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selectors;
 import com.codeborne.selenide.SelenideElement;
+import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -34,6 +38,16 @@ class CardDeliveryOrderTests {
     private static final String invalidDateErrorText = "Заказ на выбранную дату невозможен";
     private static final String nullFieldErrorText = "Поле обязательно для заполнения";
     private static final String invalidTypeOfDateErrorText = "Неверно введена дата";
+
+    @BeforeAll
+    static void setUpAll(){
+        SelenideLogger.addListener("allure",new AllureSelenide());
+    }
+
+    @AfterAll
+    static void tearDownAll(){
+        SelenideLogger.removeListener("allure");
+    }
 
 
     @Test

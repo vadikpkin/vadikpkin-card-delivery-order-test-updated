@@ -2,6 +2,7 @@ plugins {
     id 'java'
     // ...
     id 'war'
+    id'io.qameta.allure'version'2.8.1'
 }
 
 group 'ru.netology'
@@ -11,6 +12,7 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
@@ -21,7 +23,7 @@ dependencies {
     providedCompile group: 'org.projectlombok', name: 'lombok', version: '1.18.10'
     // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
     compile group: 'com.github.javafaker', name: 'javafaker', version: '0.16'
-
+    testImplementation'io.qameta.allure:allure-selenide:2.13.0'
 }
 
 test {
@@ -29,4 +31,13 @@ test {
     systemProperty 'selenide.headless', System.getProperty('selenide.headless')
 }
 
+allure{
 
+    autoconfigure=true
+    version='2.13.0'
+
+    useJUnit5{
+        version='2.13.0'
+    }
+
+}
