@@ -1,0 +1,213 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Happy path test, city is chosen from appeared list",
+    "uid" : "53651e453bd3a936",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866953078,
+      "stop" : 1577866960318,
+      "duration" : 7240
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test should decline requests if phone number in not entered",
+    "uid" : "43af609dc8abf3ac",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866960580,
+      "stop" : 1577866962422,
+      "duration" : 1842
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test should decline requests with invalid type of date",
+    "uid" : "3ec6c4d220ff14e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866962437,
+      "stop" : 1577866964538,
+      "duration" : 2101
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test should decline requests with invalid city",
+    "uid" : "a5adac5ce01e338f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866964551,
+      "stop" : 1577866966553,
+      "duration" : 2002
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test should decline requests with invalid date",
+    "uid" : "2c5b4beb5f831971",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866966562,
+      "stop" : 1577866968517,
+      "duration" : 1955
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "[1] Kostya Voronin",
+    "uid" : "dc041207a25016ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866968706,
+      "stop" : 1577866970672,
+      "duration" : 1966
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "[2] В@ронин!!",
+    "uid" : "60db737b34dc5418",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866970682,
+      "stop" : 1577866972525,
+      "duration" : 1843
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "[3] Костя3242",
+    "uid" : "50dd792bf6c0a201",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866972538,
+      "stop" : 1577866974291,
+      "duration" : 1753
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test for changing day of meeting",
+    "uid" : "705cb89948c944f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866974299,
+      "stop" : 1577866976723,
+      "duration" : 2424
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test should decline requests if city in not entered",
+    "uid" : "c20de4d9452039bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866976730,
+      "stop" : 1577866978764,
+      "duration" : 2034
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test should decline requests if date in not entered",
+    "uid" : "d46985e84ddb057c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866978771,
+      "stop" : 1577866980441,
+      "duration" : 1670
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test should decline requests if name in not entered",
+    "uid" : "d9e738899efc6bf1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866980447,
+      "stop" : 1577866981883,
+      "duration" : 1436
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Happy path test",
+    "uid" : "f3e5f17b203c16b6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866981887,
+      "stop" : 1577866983717,
+      "duration" : 1830
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "[1] +7921568375",
+    "uid" : "179871ca5019c473",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1577866983730,
+      "stop" : 1577866990341,
+      "duration" : 6611
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "[2] 89217559595",
+    "uid" : "cb71f86947ad5bd8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1577866990352,
+      "stop" : 1577866997077,
+      "duration" : 6725
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test should decline requests if checkbox is not checked",
+    "uid" : "f1add070cef306d9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1577866997086,
+      "stop" : 1577866998855,
+      "duration" : 1769
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

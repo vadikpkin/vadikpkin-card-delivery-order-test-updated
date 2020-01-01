@@ -1,0 +1,212 @@
+{
+  "uid" : "43af609dc8abf3ac",
+  "name" : "Test should decline requests if phone number in not entered",
+  "fullName" : "CardDeliveryOrderTests.shouldDeclineRequestForNullTel",
+  "historyId" : "ce483239648915fc907e75d3a8048f0e",
+  "time" : {
+    "start" : 1577866960580,
+    "stop" : 1577866962422,
+    "duration" : 1842
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(open) http://localhost:9999/",
+      "time" : {
+        "start" : 1577866960606,
+        "stop" : 1577866960888,
+        "duration" : 282
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([placeholder = 'Город']) set value(Владимир)",
+      "time" : {
+        "start" : 1577866960889,
+        "stop" : 1577866961197,
+        "duration" : 308
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([placeholder = 'Дата встречи']) set value(\b\b\b\b\b\b\b\b\b\b)",
+      "time" : {
+        "start" : 1577866961197,
+        "stop" : 1577866961479,
+        "duration" : 282
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([placeholder = 'Дата встречи']) set value(04012020)",
+      "time" : {
+        "start" : 1577866961479,
+        "stop" : 1577866961701,
+        "duration" : 222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([name='name']) set value(Виктор Леонидович Панов)",
+      "time" : {
+        "start" : 1577866961701,
+        "stop" : 1577866962096,
+        "duration" : 395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([name='phone']) set value(null)",
+      "time" : {
+        "start" : 1577866962096,
+        "stop" : 1577866962158,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(.checkbox__box) click()",
+      "time" : {
+        "start" : 1577866962158,
+        "stop" : 1577866962248,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(by text: Запланировать) click()",
+      "time" : {
+        "start" : 1577866962248,
+        "stop" : 1577866962378,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([data-test-id='phone'] .input__sub) should have(exact text 'Поле обязательно для заполнения')",
+      "time" : {
+        "start" : 1577866962379,
+        "stop" : 1577866962422,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Air-Macbook"
+  }, {
+    "name" : "thread",
+    "value" : "1469@Air-Macbook.Test worker(10)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "CardDeliveryOrderTests"
+  }, {
+    "name" : "testClass",
+    "value" : "CardDeliveryOrderTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldDeclineRequestForNullTel"
+  }, {
+    "name" : "suite",
+    "value" : "CardDeliveryOrderTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b405c2744bc2b41c",
+      "status" : "failed",
+      "statusDetails" : "Element should have exact text 'Поле обязательно для заполнения' {[data-test-id='phone'] .input__sub}\nElement: '<span class=\"input__sub\">На указанный номер моб. тел. будет отправлен смс-код для подтверждения заявки на карту. Проверьте, что номер ваш и введен корректно.</span>'\nScreenshot: file:/Users/macbook/IdeaProjects/card_delivery_card_updated/card-delivery-order-test-updated/build/reports/tests/1577866833594.0.png\nPage source: file:/Users/macbook/IdeaProjects/card_delivery_card_updated/card-delivery-order-test-updated/build/reports/tests/1577866833594.0.html\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1577866827698,
+        "stop" : 1577866834243,
+        "duration" : 6545
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43af609dc8abf3ac.json",
+  "parameterValues" : [ ]
+}

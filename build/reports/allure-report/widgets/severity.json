@@ -1,0 +1,161 @@
+[ {
+  "uid" : "f1add070cef306d9",
+  "name" : "Test should decline requests if checkbox is not checked",
+  "time" : {
+    "start" : 1577866997086,
+    "stop" : 1577866998855,
+    "duration" : 1769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "179871ca5019c473",
+  "name" : "[1] +7921568375",
+  "time" : {
+    "start" : 1577866983730,
+    "stop" : 1577866990341,
+    "duration" : 6611
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc041207a25016ca",
+  "name" : "[1] Kostya Voronin",
+  "time" : {
+    "start" : 1577866968706,
+    "stop" : 1577866970672,
+    "duration" : 1966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50dd792bf6c0a201",
+  "name" : "[3] Костя3242",
+  "time" : {
+    "start" : 1577866972538,
+    "stop" : 1577866974291,
+    "duration" : 1753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c20de4d9452039bc",
+  "name" : "Test should decline requests if city in not entered",
+  "time" : {
+    "start" : 1577866976730,
+    "stop" : 1577866978764,
+    "duration" : 2034
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43af609dc8abf3ac",
+  "name" : "Test should decline requests if phone number in not entered",
+  "time" : {
+    "start" : 1577866960580,
+    "stop" : 1577866962422,
+    "duration" : 1842
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60db737b34dc5418",
+  "name" : "[2] В@ронин!!",
+  "time" : {
+    "start" : 1577866970682,
+    "stop" : 1577866972525,
+    "duration" : 1843
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53651e453bd3a936",
+  "name" : "Happy path test, city is chosen from appeared list",
+  "time" : {
+    "start" : 1577866953078,
+    "stop" : 1577866960318,
+    "duration" : 7240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "705cb89948c944f",
+  "name" : "Test for changing day of meeting",
+  "time" : {
+    "start" : 1577866974299,
+    "stop" : 1577866976723,
+    "duration" : 2424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9e738899efc6bf1",
+  "name" : "Test should decline requests if name in not entered",
+  "time" : {
+    "start" : 1577866980447,
+    "stop" : 1577866981883,
+    "duration" : 1436
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5adac5ce01e338f",
+  "name" : "Test should decline requests with invalid city",
+  "time" : {
+    "start" : 1577866964551,
+    "stop" : 1577866966553,
+    "duration" : 2002
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c5b4beb5f831971",
+  "name" : "Test should decline requests with invalid date",
+  "time" : {
+    "start" : 1577866966562,
+    "stop" : 1577866968517,
+    "duration" : 1955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb71f86947ad5bd8",
+  "name" : "[2] 89217559595",
+  "time" : {
+    "start" : 1577866990352,
+    "stop" : 1577866997077,
+    "duration" : 6725
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3e5f17b203c16b6",
+  "name" : "Happy path test",
+  "time" : {
+    "start" : 1577866981887,
+    "stop" : 1577866983717,
+    "duration" : 1830
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d46985e84ddb057c",
+  "name" : "Test should decline requests if date in not entered",
+  "time" : {
+    "start" : 1577866978771,
+    "stop" : 1577866980441,
+    "duration" : 1670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ec6c4d220ff14e2",
+  "name" : "Test should decline requests with invalid type of date",
+  "time" : {
+    "start" : 1577866962437,
+    "stop" : 1577866964538,
+    "duration" : 2101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

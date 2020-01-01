@@ -1,0 +1,201 @@
+{
+  "uid" : "1cfcbb4f3c530d57",
+  "name" : "Test should decline requests if date in not entered",
+  "fullName" : "CardDeliveryOrderTests.shouldDeclineRequestForNullDate",
+  "historyId" : "8908aefe0b882c5cc6f598688f0eecde",
+  "time" : {
+    "start" : 1577866849758,
+    "stop" : 1577866851464,
+    "duration" : 1706
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(open) http://localhost:9999/",
+      "time" : {
+        "start" : 1577866849767,
+        "stop" : 1577866850021,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([placeholder = 'Город']) set value(Курган)",
+      "time" : {
+        "start" : 1577866850022,
+        "stop" : 1577866850266,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([placeholder = 'Дата встречи']) set value(\b\b\b\b\b\b\b\b\b\b)",
+      "time" : {
+        "start" : 1577866850266,
+        "stop" : 1577866850511,
+        "duration" : 245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([placeholder = 'Дата встречи']) set value(null)",
+      "time" : {
+        "start" : 1577866850512,
+        "stop" : 1577866850561,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([name='name']) set value(Эдуард Игнатьевич Лихачев)",
+      "time" : {
+        "start" : 1577866850561,
+        "stop" : 1577866850933,
+        "duration" : 372
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([name='phone']) set value(+7(976)568-24-51)",
+      "time" : {
+        "start" : 1577866850933,
+        "stop" : 1577866851219,
+        "duration" : 286
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(.checkbox__box) click()",
+      "time" : {
+        "start" : 1577866851219,
+        "stop" : 1577866851317,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(by text: Запланировать) click()",
+      "time" : {
+        "start" : 1577866851317,
+        "stop" : 1577866851427,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(by text: Неверно введена дата) should have(exact text 'Неверно введена дата')",
+      "time" : {
+        "start" : 1577866851428,
+        "stop" : 1577866851464,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Air-Macbook"
+  }, {
+    "name" : "thread",
+    "value" : "1409@Air-Macbook.Test worker(10)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "CardDeliveryOrderTests"
+  }, {
+    "name" : "testClass",
+    "value" : "CardDeliveryOrderTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldDeclineRequestForNullDate"
+  }, {
+    "name" : "suite",
+    "value" : "CardDeliveryOrderTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1cfcbb4f3c530d57.json",
+  "parameterValues" : [ ]
+}

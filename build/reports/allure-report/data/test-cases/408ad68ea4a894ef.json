@@ -1,0 +1,201 @@
+{
+  "uid" : "408ad68ea4a894ef",
+  "name" : "Happy path test",
+  "fullName" : "CardDeliveryOrderTests.shouldSubmitRequest",
+  "historyId" : "bf7a861f6b60306668c9d5b30a8fae99",
+  "time" : {
+    "start" : 1577866852878,
+    "stop" : 1577866854725,
+    "duration" : 1847
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(open) http://localhost:9999/",
+      "time" : {
+        "start" : 1577866852889,
+        "stop" : 1577866853143,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([placeholder = 'Город']) set value(Салехард)",
+      "time" : {
+        "start" : 1577866853144,
+        "stop" : 1577866853407,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([placeholder = 'Дата встречи']) set value(\b\b\b\b\b\b\b\b\b\b)",
+      "time" : {
+        "start" : 1577866853407,
+        "stop" : 1577866853649,
+        "duration" : 242
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([placeholder = 'Дата встречи']) set value(04012020)",
+      "time" : {
+        "start" : 1577866853650,
+        "stop" : 1577866853813,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([name='name']) set value(Белоусов Герман Денисович)",
+      "time" : {
+        "start" : 1577866853813,
+        "stop" : 1577866854169,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([name='phone']) set value(+7(982)694-76-53)",
+      "time" : {
+        "start" : 1577866854169,
+        "stop" : 1577866854435,
+        "duration" : 266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(.checkbox__box) click()",
+      "time" : {
+        "start" : 1577866854435,
+        "stop" : 1577866854539,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(by text: Запланировать) click()",
+      "time" : {
+        "start" : 1577866854539,
+        "stop" : 1577866854691,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$([data-test-id='success-notification']) wait until([visible, 15000])",
+      "time" : {
+        "start" : 1577866854692,
+        "stop" : 1577866854725,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Air-Macbook"
+  }, {
+    "name" : "thread",
+    "value" : "1409@Air-Macbook.Test worker(10)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "CardDeliveryOrderTests"
+  }, {
+    "name" : "testClass",
+    "value" : "CardDeliveryOrderTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldSubmitRequest"
+  }, {
+    "name" : "suite",
+    "value" : "CardDeliveryOrderTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "408ad68ea4a894ef.json",
+  "parameterValues" : [ ]
+}

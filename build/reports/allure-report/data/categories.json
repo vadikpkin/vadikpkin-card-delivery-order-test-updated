@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should have exact text 'Телефон указан неверно. Должно быть 11 цифр, например, +79012345678' {[data-test-id='phone'] .input__sub}\nElement: '<span class=\"input__sub\">На указанный номер моб. тел. будет отправлен смс-код для подтверждения заявки на карту. Проверьте, что номер ваш и введен корректно.</span>'\nScreenshot: file:/Users/macbook/IdeaProjects/card_delivery_card_updated/card-delivery-order-test-updated/build/reports/tests/1577866989697.0.png\nPage source: file:/Users/macbook/IdeaProjects/card_delivery_card_updated/card-delivery-order-test-updated/build/reports/tests/1577866989697.0.html\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "[1] +7921568375",
+        "uid" : "179871ca5019c473",
+        "parentUid" : "1a5c1178bff7d96a701b954945fd2fdf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1577866983730,
+          "stop" : 1577866990341,
+          "duration" : 6611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a5c1178bff7d96a701b954945fd2fdf"
+    }, {
+      "name" : "Element should have exact text 'Телефон указан неверно. Должно быть 11 цифр, например, +79012345678' {[data-test-id='phone'] .input__sub}\nElement: '<span class=\"input__sub\">На указанный номер моб. тел. будет отправлен смс-код для подтверждения заявки на карту. Проверьте, что номер ваш и введен корректно.</span>'\nScreenshot: file:/Users/macbook/IdeaProjects/card_delivery_card_updated/card-delivery-order-test-updated/build/reports/tests/1577866996475.1.png\nPage source: file:/Users/macbook/IdeaProjects/card_delivery_card_updated/card-delivery-order-test-updated/build/reports/tests/1577866996475.1.html\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "[2] 89217559595",
+        "uid" : "cb71f86947ad5bd8",
+        "parentUid" : "2e86f2860ef10f58acf7e8983f24a44a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1577866990352,
+          "stop" : 1577866997077,
+          "duration" : 6725
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e86f2860ef10f58acf7e8983f24a44a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
